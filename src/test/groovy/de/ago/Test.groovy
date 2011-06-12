@@ -26,8 +26,10 @@ class Test {
 
   @org.junit.Test
   public void testGroovy() {
-    def li = ['a', 'b', 'c', 'd']
+    def li = ['a', 'b', 'c', 'd', 'e']
     LOG.debug("" + li.disjoint(['f', 'h']))
+    assert li.disjoint(['f', 'h']) == true
+
 
   }
 
