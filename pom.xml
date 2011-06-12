@@ -8,7 +8,6 @@
     <artifactId>groovy-mvn-test</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
-<!-- line added to test only 20110612:1840-->
         <!--
                 <dependency>
                     <groupId>org.slf4j</groupId>
