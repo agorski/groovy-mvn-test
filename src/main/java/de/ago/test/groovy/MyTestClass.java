@@ -13,12 +13,12 @@ import org.slf4j.LoggerFactory;
 public class MyTestClass {
   private static final Logger LOG = LoggerFactory.getLogger(MyTestClass.class);
 
-    public String myPublicMethod(String input) {
-        return input + getSufixPrivate();
-    }
+  public String myPublicMethod(String input) {
+    return input + getSufixPrivate();
+  }
 
-    private String getSufixPrivate() {
-        LOG.debug("executing private method...");
-        return "added";
-    }
+  private String getSufixPrivate() {
+    LOG.debug("executing private method...");
+    return "added";
+  }
 }
